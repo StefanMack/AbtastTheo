@@ -1,4 +1,9 @@
-# Das Abtasttheorem und die sinc-Interpolation mit Python Skripten nachvollziehen und verstehen 
+# Das Abtasttheorem und die sinc-Interpolation mit Python Skripten nachvollziehen und verstehen  
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/StefanMack/AbtastTheo/master)
+
+> Hinweis: Wenn Sie oben im File Explorer auf eine der beiden Jupyter Notebooks (Endung ".ipnyb") klicken, dann wird lediglich ein Viewer geöffnet, in dem Sie das Notebook nur anschauen können. Möchten Sie die Codebeispiele darin einzeln ausführen und ändern, dann klicken Sie bitte auf das Icon "launch|binder". **Das Starten des Webservice binder kann bis zu einer Minute dauern.**
+
 
 Es gibt viele verschiedene Formulierungen des Abtasttheorems -oder wie man es auch nennt- des Nyquist-Shannon-Abtasttheorems. Eine gängige Formulierung ist folgende - die Abkürzung B steht hier für den Begriff Bandbreite:
 
