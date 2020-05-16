@@ -21,7 +21,10 @@ Letztlich steckt in dieser Aussage das Erfolgsgeheimnis der Digitalisierung: Wen
 * Steckt wirklich die komplette Information des Signals in den Abtastwerten. Bzw. wieso geht Information verloren, wenn mit der Frequenz 2 mal BW Hz oder langsamer abgetastet wird?
 * Wie kann man aus den Abtastwerten das Signal wieder so rekonstruieren, ohne dass beispielsweise bei einem Sinussignal auf einmal Kanten im rekonstruierten Signalverlauf auftauchen?
 
-#### Im Jupyter Notebook hierzu wird zuerst gezeigt, wieso eine sogenannte Unterabtastung mit 2 mal B Hz oder weniger zu einem Informationsverlust führt. Weiter wird darauf eingegangen, wie man ein mit wenig mehr als 2 mal B Hz abgetastetes Signal wieder originalgetreu rekonstruiert - die sogenannte "sinc-Interpolation", welche z.B. auch bei Oszilloskopen verwendet wird.
+#### Im ersten Jupyter Notebook hierzu wird zuerst gezeigt, wieso eine sogenannte Unterabtastung mit 2 mal B Hz oder weniger zu einem Informationsverlust führt. Weiter wird darauf eingegangen, wie man ein mit wenig mehr als 2 mal B Hz abgetastetes Signal wieder originalgetreu rekonstruiert - die sogenannte "sinc-Interpolation", welche z.B. auch bei Oszilloskopen verwendet wird.
+
+**Kann man das Abtasttheorem auch sehen oder hören?**
+#### Im zweiten Jupyter Notebook werden das ursprüngliche Signal und das aus den Abtastwerten rekonstruierte Signal als Plot verglichen. Beide Signale werden zudem auch über die Computersoundkarte hörbar gemacht, wodurch sie akustisch vergleichbar werden.
 
 License
 -----
